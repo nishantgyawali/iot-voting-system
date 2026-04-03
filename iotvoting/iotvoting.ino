@@ -25,9 +25,9 @@ MD_MAX72XX mx(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 #define PHASE_PIN_B 26
 
 // ─── WiFi & Server ────────────────────────────────────
-const char* ssid      = "Arc Node";
-const char* password  = "12345678";
-const char* serverUrl = "http://192.168.1.5:8000/api/v1/submit-vote/";
+const char* ssid      = "Sudo Connect1";
+const char* password  = "wifictl25";
+const char* serverUrl = "http://192.168.227.198:8000/api/v1/submit-vote/";
 
 // ─── AES-128 Key ──────────────────────────────────────
 unsigned char aes_key[16] = {
@@ -36,8 +36,8 @@ unsigned char aes_key[16] = {
 
 // ─── Vote Info ────────────────────────────────────────
 String device_id    = "ESP32-B015-001";
-String constituency = "कैलाली १";
-String district     = "कैलाली";
+String constituency = "इलाम १";
+String district     = "इलाम";
 String booth_no     = "B015";
 
 // ─── Candidates ───────────────────────────────────────
